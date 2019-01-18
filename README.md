@@ -7,3 +7,4 @@
 把自己的静态页面/配置映射到容器中去, 其他项目只需要软连接到这个仓库
 
 ```ln -s source destination```
+```ln -s /path/to/project-specific.conf /path/to/this/repo/conf/conf.d/project-specific.conf```
