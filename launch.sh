@@ -1,9 +1,9 @@
 docker run \
     -d \
-    -p 8080:80 \
+    -p 80:80 \
     --rm \
     --name \
-    nginx-demo \
+    nginx-main \
     --mount type=bind,source="${PWD}/html",target=/usr/share/nginx/html \
     --mount type=bind,source="${PWD}/conf",target=/etc/nginx \
     nginx
