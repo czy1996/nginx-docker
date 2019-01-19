@@ -8,3 +8,4 @@
 
 ```ln -s source destination```
 ```ln -s /path/to/project-specific.conf /path/to/this/repo/conf/conf.d/project-specific.conf```
+```ln -s /path/to/cert.ca /path/to/this/repo/conf/certs
